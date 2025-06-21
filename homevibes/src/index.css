@@ -1,0 +1,409 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #23272A;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold
+}
+
+.nav {
+    @apply w-full py-3 flex absolute top-0;
+    padding: 40px 50px
+}
+
+.nav .menu {
+    width: 50px;
+    height: 30px;
+}
+
+.nav h2 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    font-family: "Sevillana", cursive;
+    font-style: normal;
+    font-size: 40px;
+    padding-left: 15px;
+}
+
+.nav .header-r {
+    @apply flex gap-5;
+}
+
+.nav .header-r img {
+    width: 35px;
+    height: 35px;
+}
+
+.main_container {
+    @apply w-full h-fit
+}
+
+
+
+.slide .slide-img, .slide .slide-img img {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.slide-img {
+    @apply absolute;
+}
+
+.slide-text {
+    @apply flex justify-center items-center px-10 flex-col;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    padding: 40px 50px;
+    max-width: 50vw;
+    gap: 20px;
+}
+
+.slide-text h1 {
+    font-size: 70px;
+    font-weight: bold;
+    background-color: transparent;
+    line-height: 80px;
+    color: white;
+}
+
+.slide-text .btn-primary {
+    border-radius: 40px;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 12px 40px;
+    color: white;
+}
+
+.p2-container {
+    padding: 40px;
+}
+
+
+
+.left-container {
+    @apply rounded-sm overflow-hidden rounded-lg
+}
+
+.right-container {
+    @apply overflow-hidden rounded-lg
+}
+
+img.left-container {
+    height: 700px;
+    width: 20%;
+}
+
+img.right-container {
+    width: 80%;
+    height: 700px;
+}
+
+.p3-container {
+    background-color: #346C81;
+}
+
+.cat-cont {
+    width: 28%;
+    height: 600px;
+    padding: 10px;
+}
+
+.cat-cont .cat-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.floating-img-1 {
+    position: absolute;
+    width: fit-content;
+    background-color: green;
+    left: -30px;
+    top: 0;
+}
+
+.floating-img-2 {
+    position: absolute;
+    width: fit-content;
+    background-color: red;
+    right: 0;
+    top: -30px;
+}
+
+.floating-img-3 {
+    position: absolute;
+    width: fit-content;
+    background-color: pink;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: -50px;
+}
+
+.floating-img-4 {
+    position: absolute;
+    width: fit-content;
+    background-color: pink;
+    bottom: 0;
+    left: -20px;
+}
+
+.floating-img-5 {
+    position: absolute;
+    width: fit-content;
+    background-color: green;
+    bottom: -20px;
+    right: 0px;
+}
+
+.floating-img {
+    border-radius: 6px;
+    overflow: hidden;
+    height: fit-content;
+    opacity: 0;
+}
+
+.floating-img img {
+    max-width: 200px;
+    height: fit-content;
+}
+
+.floating-img:hover {
+    opacity: 1;
+}
+
+
+
+.collections img {
+    width: 32%;
+}
+
+
+.p5-container {
+    background: #917F6C;
+    padding: 50px
+}
+
+.desginer_img {
+    width: 40%;
+}
+
+.desginer_img img {
+    width: 100%;
+    height: 500px;
+}
+
+.p6-container {
+    background: #083344;
+}
+
+.review-cont {
+    width: 33%;
+    height: 300px;
+    position: relative;
+    border-radius: 20px;
+
+}
+
+.rev_user {
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    bottom: -60px;
+}
+
+.contact_bck {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0
+}
+
+.contact-input {
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    color: white;
+    padding: 20px 40px;
+    padding-left: 0px;
+    width: 100%;
+    font-size: 24px;
+}
+
+.contact-input::placeholder {
+    color: white;
+}
+
+.p8-container {
+    background: #564335;
+}
+
+.footer-input {
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-left: 0px;
+}
+
+
+
+.mob_page,
+.mob-header,
+.mob-terms {
+    display: none;
+}
+
+@media (max-width: 600px) {
+
+    .desk-header {
+        display: none !important;
+    }
+
+    .mob-header,
+    .mob_page {
+        display: flex;
+    }
+
+    .nav {
+        padding: 10px 25px;
+    }
+
+    .nav h2 {
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .nav .menu {
+        display: none;
+    }
+
+    .slide {
+
+        position: relative;
+        height: fit-content;
+    }
+
+
+
+    .slide-text {
+        width: 100%;
+        max-width: 100%;
+        height: fit-content;
+        padding-top: 130px !important;
+        padding-bottom: 100px !important;
+
+    }
+
+    .slide-text h1 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .slide-text {
+        padding: 40px 30px;
+    }
+
+    .btn-primary {
+        font-size: 10px;
+        padding: 12px 15px !important;
+    }
+
+    .p5-container {
+        padding: 20px;
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .desginer_img {
+        width: 100%;
+
+    }
+
+    .designer_text>div {
+        width: 100%;
+        justify-content: center;
+        padding: 10px !important;
+    }
+
+    .designer_text h3 {
+        font-size: 18px !important;
+        text-align: center;
+        font-weight: lighter;
+    }
+
+    .desginer_img img {
+        height: 200px;
+    }
+
+    .p6-container {
+        flex-direction: column;
+        padding: 10px;
+        gap: 50px;
+    }
+
+    .review-cont {
+        width: 100%;
+        top: 0px !important;
+    }
+
+    .p8-container {
+        margin-top: 50px;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .p8-container img {
+        width: 200px !important;
+    }
+
+    .footer-container>div {
+        padding: 10px;
+    }
+
+    .footer-container .col-1 {
+        width: 100% !important;
+    }
+
+    .footer-container .inner-col-1 {
+        width: 50%;
+    }
+
+    .footer-container b {
+        font-size: 12px;
+    }
+
+    .mob-terms {
+        display: flex;
+        text-wrap: nowrap;
+    }
+
+    .desk_page,
+    .p3-container,
+
+    .desk-terms,
+
+    .p7-container {
+        display: none;
+    }
+}

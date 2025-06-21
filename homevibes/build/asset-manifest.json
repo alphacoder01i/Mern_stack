@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f8f68ea.css",
+    "main.js": "/static/js/main.e998d64b.js",
+    "static/media/d4.png": "/static/media/d4.5142b239625df72bc4ee.png",
+    "static/media/contact-bck.jpg": "/static/media/contact-bck.fb7be58e499b864d7713.jpg",
+    "static/media/d2.png": "/static/media/d2.b6f37702808b539dda6f.png",
+    "static/media/d3.png": "/static/media/d3.c30234b676fdffb1a242.png",
+    "static/media/d1.png": "/static/media/d1.377d74c63c58dd1cdf29.png",
+    "static/media/p42.png": "/static/media/p42.e3f0c69bd6d240a029f5.png",
+    "static/media/p41.png": "/static/media/p41.fbcb10ce5ff5fce14ed9.png",
+    "static/media/p43.png": "/static/media/p43.6d5cf69ff8e736685fe8.png",
+    "static/media/p222.png": "/static/media/p222.adbe24adde3eaa43b89e.png",
+    "static/media/page1.png": "/static/media/page1.77f52d62743080f9af43.png",
+    "static/media/p51.png": "/static/media/p51.21a8c7c9aa61b6c3ad1a.png",
+    "static/media/f5.png": "/static/media/f5.b4cdc7bb370be549412d.png",
+    "static/media/new_arrival.png": "/static/media/new_arrival.f5c85cfc7fccd64d584b.png",
+    "static/media/best_seller.png": "/static/media/best_seller.5b2f279000b70400c15a.png",
+    "static/media/p212.png": "/static/media/p212.f4e4d4b5cab3adb82806.png",
+    "static/media/f1.png": "/static/media/f1.04ecf5bd94a2936cf24b.png",
+    "static/media/f3.png": "/static/media/f3.0ba51e0af134d9d17690.png",
+    "static/media/f2.png": "/static/media/f2.566502667e4283cb1ab9.png",
+    "static/media/f4.png": "/static/media/f4.6b5ccfb38e378865c5b2.png",
+    "static/media/p71-removebg-preview.png": "/static/media/p71-removebg-preview.35e372b3a33d9ddfe034.png",
+    "static/media/p12-removebg-preview.png": "/static/media/p12-removebg-preview.9f0d3b0f20acf0468277.png",
+    "static/media/menu2.png": "/static/media/menu2.1fb727fa3fcf1022b5b7.png",
+    "static/media/review_user_3.png": "/static/media/review_user_3.89d011237b4a2b7bca61.png",
+    "static/media/review_user_1.png": "/static/media/review_user_1.f2eb7c2b041474a87738.png",
+    "static/media/review_user_2.png": "/static/media/review_user_2.7ee53e2646b8a34594f6.png",
+    "static/media/p14-removebg-preview.png": "/static/media/p14-removebg-preview.14a66a03f0ec94414d7c.png",
+    "static/media/shop-removebg-preview.png": "/static/media/shop-removebg-preview.85b125d822f6c1ec36d4.png",
+    "static/media/p11-removebg-preview.png": "/static/media/p11-removebg-preview.9fba741dc44f0840dc2b.png",
+    "static/media/ig.png": "/static/media/ig.282e1a0f644bb5f7e656.png",
+    "static/media/fb.png": "/static/media/fb.8105b3b875d1e151c5b4.png",
+    "index.html": "/index.html",
+    "main.3f8f68ea.css.map": "/static/css/main.3f8f68ea.css.map",
+    "main.e998d64b.js.map": "/static/js/main.e998d64b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f8f68ea.css",
+    "static/js/main.e998d64b.js"
+  ]
+}
